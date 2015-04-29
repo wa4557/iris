@@ -54,6 +54,10 @@
 @define-color osd_fg #333333;
 @define-color osd_bg #fafafa;
 
+/* lightdm greeter colors */
+@define-color lightdm_bg_color @dark_bg_color;
+@define-color lightdm_fg_color @dark_fg_color;
+
 /* window manager colors */
 @define-color wm_bg @menubar_bg_color;
 @define-color wm_border_focused @menubar_bg_color;
@@ -104,3 +108,4 @@
 @import url("apps/xfce.css");
 @import url("apps/budgie.css");
 @import url("apps/nemo.css");
+@import url("apps/lightdm-gtk-greeter.css");
